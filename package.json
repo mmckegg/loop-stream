@@ -1,0 +1,23 @@
+{
+  "name": "loop-stream",
+  "version": "0.0.0",
+  "description": "Stream Loop Drop playback data out on a websocket.",
+  "main": "index.js",
+  "dependencies": {
+    "websocket-stream": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmckegg/loop-stream.git"
+  },
+  "author": "Matt McKegg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmckegg/loop-stream/issues"
+  },
+  "homepage": "https://github.com/mmckegg/loop-stream#readme"
+}
