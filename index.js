@@ -65,7 +65,7 @@ function LoopStream(setups, port) {
 function matches(obs, list) {
   if (obs.getLength() === list.length) {
     for (var i=0;i<list.length;i++) {
-      if (list[0] !== obs.get(0)) {
+      if (list[i] !== obs.get(i)) {
         return false
       }
     }
